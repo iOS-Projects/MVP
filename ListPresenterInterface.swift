@@ -8,9 +8,10 @@
 
 import Foundation
 
-
 protocol ListPresenterInterface {
-    func responseData(data:[Article]){
-     // what's wrong in here
-    }
+    // It wrong because oun eng create func with definition
+    // func in protocol cannot have definition
+    func responseData(data:[Article]) // {
+    
+    //}
 }

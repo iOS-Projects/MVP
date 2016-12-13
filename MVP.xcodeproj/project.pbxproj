@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D518FD4F1E002D3200389E0F /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D518FD4E1E002D3200389E0F /* ListModel.swift */; };
 		F858EEF71DFFCCC400896C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858EEF61DFFCCC400896C84 /* AppDelegate.swift */; };
 		F858EEFC1DFFCCC400896C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F858EEFA1DFFCCC400896C84 /* Main.storyboard */; };
 		F858EEFE1DFFCCC400896C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F858EEFD1DFFCCC400896C84 /* Assets.xcassets */; };
@@ -17,7 +18,6 @@
 		F858EF321DFFDAD500896C84 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858EF311DFFDAD500896C84 /* ListTableViewController.swift */; };
 		F858EF341DFFDC0400896C84 /* ListViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858EF331DFFDC0400896C84 /* ListViewInterface.swift */; };
 		F858EF361DFFE2E900896C84 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858EF351DFFE2E900896C84 /* ListPresenter.swift */; };
-		F858EF381DFFF39600896C84 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858EF371DFFF39600896C84 /* ListModel.swift */; };
 		F858EF3A1DFFF94500896C84 /* ListPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858EF391DFFF94500896C84 /* ListPresenterInterface.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D518FD4E1E002D3200389E0F /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		F858EEF31DFFCCC400896C84 /* MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F858EEF61DFFCCC400896C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MVP/AppDelegate.swift; sourceTree = "<group>"; };
 		F858EEFB1DFFCCC400896C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		F858EF311DFFDAD500896C84 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		F858EF331DFFDC0400896C84 /* ListViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewInterface.swift; sourceTree = "<group>"; };
 		F858EF351DFFE2E900896C84 /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
-		F858EF371DFFF39600896C84 /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		F858EF391DFFF94500896C84 /* ListPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenterInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,7 +181,7 @@
 		F858EF2E1DFFD9BA00896C84 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F858EF371DFFF39600896C84 /* ListModel.swift */,
+				D518FD4E1E002D3200389E0F /* ListModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -342,7 +342,7 @@
 				F858EF3A1DFFF94500896C84 /* ListPresenterInterface.swift in Sources */,
 				F858EF321DFFDAD500896C84 /* ListTableViewController.swift in Sources */,
 				F858EEF71DFFCCC400896C84 /* AppDelegate.swift in Sources */,
-				F858EF381DFFF39600896C84 /* ListModel.swift in Sources */,
+				D518FD4F1E002D3200389E0F /* ListModel.swift in Sources */,
 				F858EF341DFFDC0400896C84 /* ListViewInterface.swift in Sources */,
 				F858EF2C1DFFD87D00896C84 /* Model.swift in Sources */,
 			);
@@ -591,6 +591,7 @@
 				F858EF1D1DFFCCC400896C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F858EF1E1DFFCCC400896C84 /* Build configuration list for PBXNativeTarget "MVPTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +600,7 @@
 				F858EF201DFFCCC400896C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F858EF211DFFCCC400896C84 /* Build configuration list for PBXNativeTarget "MVPUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +609,7 @@
 				F858EF231DFFCCC400896C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
